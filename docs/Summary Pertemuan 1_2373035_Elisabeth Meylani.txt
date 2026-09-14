@@ -1,0 +1,11 @@
+2.7 Refleksi
+• Lapisan mana yang paling saya pahami?
+	Yang baru saya pahami baru bagian fork dan GitHub proses fork repo dosen ke akun sendiri, lalu clone ke komputer pakai GitHub Desktop. Karena hasilnya kelihatan langsung (repo muncul di akun saya lalu folder muncul di laptop).	
+• Lapisan mana yang masih saya campuradukkan?
+	Selebihnya masih bingung mulai dari render pakai Quarto sampai bikin virtual environment. Saya masih bingung file mana yang harus dibuka duluan, dan urutan perintah yang benar itu bagaimana gitu. Saya tadi ada asal coba jalanin perintah tapi nggak sepenuhnya ngerti karena ada yang tidak berurutan gitu.
+• Bukti apa yang membuat sebuah sistem layak disebut "cerdas" dan bertanggung jawab?
+	Sistem bisa dibilang cerdas kalau mampu memberi output yang relevan dan konsisten terhadap input yang bervariasi  
+	Sedangkan bertanggung jawab bisa ditunjukkan lewat hasil yang sudah di push lewat commit history di Git, prosesnya jelas sehingga  kita tahu data dan langkah apa yang menghasilkan output
+
+
+Tutup dengan pesan: minggu depan mahasiswa tidak langsung memilih algoritma; mereka belajar mengubah dataset menjadi masalah yang sah dan terukur. 
