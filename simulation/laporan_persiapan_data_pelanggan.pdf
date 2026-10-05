@@ -1,0 +1,226 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 2196 >>
+stream
+BT
+/F1 10 Tf
+48 752 Td
+14 TL
+/F2 19 Tf
+0 -3 Td
+(LAPORAN DISKUSI DATA PELANGGAN) Tj
+/F1 10 Tf
+0 -23 Td
+/F1 10 Tf
+(Persiapan data untuk analisis e-commerce dan prediksi churn) Tj
+0 -24 Td
+/F2 13 Tf
+0 -4 Td
+(1. Ringkasan) Tj
+/F1 10 Tf
+0 -17 Td
+(Laporan ini merangkum pembahasan tentang file data proyek di folder simulation. Empat file) Tj
+T*
+(sumber berisi informasi pelanggan, transaksi, ringkasan pendapatan bulanan, dan ringkasan) Tj
+T*
+(produk. File customer_ml_dataset.csv merupakan data pelanggan yang telah disiapkan untuk) Tj
+T*
+(pemodelan, lalu dibagi menjadi data train dan test.) Tj
+T*
+0 -5 Td
+/F2 13 Tf
+0 -4 Td
+(2. File data sumber) Tj
+/F1 10 Tf
+0 -17 Td
+/F2 10 Tf
+(customers.csv - 8.000 baris) Tj
+/F1 10 Tf
+0 -15 Td
+(Satu baris mewakili satu pelanggan. Kolom berisi customer_id; negara, usia, gender, dan) Tj
+T*
+(membership_tier; tanggal registrasi; jumlah serta nilai belanja; jarak sejak pembelian) Tj
+T*
+(terakhir; kategori dan perangkat favorit; metode pembayaran dan kanal akuisisi; ulasan,) Tj
+T*
+(retur, wishlist, langganan newsletter; serta churned sebagai label churn \(1 atau 0\).) Tj
+T*
+0 -5 Td
+/F2 10 Tf
+(orders.csv - 25.000 baris) Tj
+/F1 10 Tf
+0 -15 Td
+(Satu baris mewakili satu pesanan. Data mencakup ID pesanan dan pelanggan, tanggal, produk) Tj
+T*
+(dan kategori, harga dan kuantitas, subtotal, diskon, ongkos kirim, pajak, total transaksi,) Tj
+T*
+(metode pembayaran, perangkat, lama pengiriman, status pesanan, retur, rating, serta) Tj
+T*
+(aktivitas sesi sebelum pembelian.) Tj
+T*
+0 -5 Td
+/F2 10 Tf
+(monthly_revenue.csv - 75 baris) Tj
+/F1 10 Tf
+0 -15 Td
+(Ringkasan tiap bulan: tahun, bulan, kuartal, jumlah pesanan, pendapatan, rata-rata nilai) Tj
+T*
+(pesanan dan diskon, return_rate, jumlah pelanggan unik, dan pelanggan baru. Dalam data ini) Tj
+T*
+(return_rate tercatat nol. Catatan data_prep.py menyebut ringkasan pendapatan memakai) Tj
+T*
+(pesanan terkirim; analisis retur sebaiknya memakai orders.csv.) Tj
+T*
+0 -5 Td
+/F2 10 Tf
+(product_summary.csv - 140 baris) Tj
+/F1 10 Tf
+0 -15 Td
+(Ringkasan per produk dan kategori: jumlah pesanan, pendapatan, harga dan rating rata-rata,) Tj
+T*
+(tingkat retur, diskon rata-rata, dan lama pengiriman rata-rata.) Tj
+T*
+0 -5 Td
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2818 >>
+stream
+BT
+/F1 10 Tf
+48 752 Td
+14 TL
+/F2 19 Tf
+0 -3 Td
+(DATA SIAP UNTUK PEMODELAN) Tj
+/F1 10 Tf
+0 -23 Td
+/F2 13 Tf
+0 -4 Td
+(3. Dataset pelanggan hasil persiapan) Tj
+/F1 10 Tf
+0 -17 Td
+(Ketiga CSV berikut memiliki 23 kolom dan satu baris per pelanggan. customer_id) Tj
+T*
+(dipertahankan agar baris dapat ditelusuri kembali. Tujuh kolom kategorikal adalah country,) Tj
+T*
+(gender, membership_tier, preferred_category, preferred_device, preferred_payment_method,) Tj
+T*
+(dan acquisition_channel. Sisanya mencakup 14 kolom numerik, satu kolom ID, dan target) Tj
+T*
+(churned.) Tj
+T*
+0 -5 Td
+(Kolom numerik mencakup age, total_orders, total_spend_usd, avg_order_value_usd,) Tj
+T*
+(days_since_last_purchase, reviews_given, avg_review_score, returns_made, wishlist_items,) Tj
+T*
+(newsletter_subscribed, customer_tenure_days, orders_per_year, reviews_per_order, dan) Tj
+T*
+(returns_per_order. churned adalah target klasifikasi.) Tj
+T*
+0 -5 Td
+(File | Baris | Kegunaan) Tj
+T*
+(customer_ml_dataset.csv | 8.000 | Dataset pelanggan lengkap setelah persiapan fitur) Tj
+T*
+(customer_train.csv | 6.400 | Data untuk melatih model) Tj
+T*
+(customer_test.csv | 1.600 | Data untuk mengevaluasi model pada baris terpisah) Tj
+T*
+0 -5 Td
+/F2 13 Tf
+0 -4 Td
+(4. Fitur yang dihitung) Tj
+/F1 10 Tf
+0 -17 Td
+(customer_tenure_days menghitung lama sejak pendaftaran sampai tanggal snapshot.) Tj
+T*
+(orders_per_year menghitung pesanan per tahun masa pelanggan. reviews_per_order dan) Tj
+T*
+(returns_per_order menghitung ulasan atau retur per pesanan; jika total pesanan nol, kedua) Tj
+T*
+(rasio diisi nol.) Tj
+T*
+0 -5 Td
+/F2 13 Tf
+0 -4 Td
+(5. Alur persiapan) Tj
+/F1 10 Tf
+0 -17 Td
+(data_prep.py memuat dan memeriksa empat CSV sumber, mengubah kolom tanggal, menentukan) Tj
+T*
+(snapshot dari tanggal terbaru di pesanan atau registrasi, membuat fitur pelanggan, lalu) Tj
+T*
+(membagi dataset dengan train_test_split. Pembagian memakai test_size 0.20, random_state 42,) Tj
+T*
+(dan stratify berdasarkan churned agar proporsi kelas terjaga. Skrip menyimpan dataset) Tj
+T*
+(lengkap, train, test, dan laporan kualitas data.) Tj
+T*
+0 -5 Td
+/F2 13 Tf
+0 -4 Td
+(6. Contoh membaca baris) Tj
+/F1 10 Tf
+0 -17 Td
+(Contoh dari customer_ml_dataset.csv: customer C00001 memiliki 4 pesanan, total belanja) Tj
+T*
+(286.63 USD, customer_tenure_days 2631, orders_per_year sekitar 0.56, dan churned = 0. Angka) Tj
+T*
+(ini menggambarkan satu pelanggan; bukan ringkasan seluruh dataset.) Tj
+T*
+0 -5 Td
+/F2 13 Tf
+0 -4 Td
+(Catatan struktur) Tj
+/F1 10 Tf
+0 -17 Td
+(customer_ml_dataset.csv adalah keseluruhan data setelah persiapan. customer_train.csv dan) Tj
+T*
+(customer_test.csv adalah dua bagian hasil pemisahan data tersebut. Untuk pembelajaran) Tj
+T*
+(mesin, customer_id biasanya berfungsi sebagai identitas, sedangkan churned menjadi label) Tj
+T*
+(yang diprediksi.) Tj
+T*
+0 -5 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000002462 00000 n 
+0000002598 00000 n 
+0000005468 00000 n 
+0000005604 00000 n 
+0000005667 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+5716
+%%EOF
