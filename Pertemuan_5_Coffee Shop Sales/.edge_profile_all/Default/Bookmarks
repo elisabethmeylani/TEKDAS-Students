@@ -1,0 +1,203 @@
+{
+   "checksum": "79c572584f598f43818a8904cca225f1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13368002517000000",
+            "date_last_used": "0",
+            "guid": "1ef874a3-c574-4512-b4ce-20270f034649",
+            "id": "13",
+            "name": "MaranathaOne",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://one.maranatha.edu/login",
+            "visit_count": 0
+         }, {
+            "date_added": "13368002536000000",
+            "date_last_used": "13435007269327512",
+            "guid": "078b4784-b347-43b9-8202-95b9e09e29ff",
+            "id": "14",
+            "name": "Maranatha Online Learning",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://morning.maranatha.edu/",
+            "visit_count": 5
+         }, {
+            "date_added": "13368002564000000",
+            "date_last_used": "0",
+            "guid": "0653d027-67bd-425a-8332-d8ba359de4e7",
+            "id": "15",
+            "name": "Office 365",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.office.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13368002589000000",
+            "date_last_used": "0",
+            "guid": "9724c18b-92b7-4e33-9abf-8743d4ee6337",
+            "id": "16",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=in&ifkv=Ab5oB3po_kl2DAlZB75QdxOz1O-lQqPu8IGHtYXKz-N_vKdvu3W5lCqoEKztrllrZo1m1hF4cQsUxA&ltmpl=default&osid=1&rm=false&service=mail&ss=1&dsh=S-2045758775%3A1723528977783037&ddm=0",
+            "visit_count": 0
+         }, {
+            "date_added": "13368002621000000",
+            "date_last_used": "0",
+            "guid": "e0ca13f6-5fa9-4dae-ba27-1b27ecde9847",
+            "id": "17",
+            "name": "GClass",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fclassroom.google.com&ifkv=Ab5oB3r-mY1j4rP_DamWoD1cLCeT3XhJYODNsb1Lqi6I3O8Vd0Du-DZj7TCD74T9G3UFDpHy3S4-vg&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-986884739%3A1723529005562118&ddm=0",
+            "visit_count": 0
+         }, {
+            "date_added": "13368002652000000",
+            "date_last_used": "0",
+            "guid": "c5c44107-7881-4d65-b9ba-9d93e7afb6c1",
+            "id": "18",
+            "name": "E-STRANGE",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://e-strange.org/mcu/",
+            "visit_count": 0
+         }, {
+            "date_added": "13368002716000000",
+            "date_last_used": "0",
+            "guid": "6e2d5507-c51c-4ed9-a4ea-f53717d8979a",
+            "id": "19",
+            "name": "FIT Exam",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://exam2.itmaranatha.org/public/code/index.php",
+            "visit_count": 0
+         }, {
+            "date_added": "13412287869000000",
+            "date_last_used": "0",
+            "guid": "bce5bc00-fcca-4c6f-9f67-286783703928",
+            "id": "20",
+            "name": "Transcribe Audio to Text with AI — Fast Audio to Text Converter",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://elevenlabs.io/audio-to-text",
+            "visit_count": 0
+         } ],
+         "date_added": "13436273420477777",
+         "date_last_used": "0",
+         "date_modified": "13412287869000000",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13251472319000000",
+               "date_last_used": "0",
+               "guid": "e22af6e0-fa53-4680-8bd2-de4afcec05a0",
+               "id": "8",
+               "name": "Mangakuri – Bacaannya Kaum Rebahan",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://mangakuri.xyz/",
+               "visit_count": 0
+            } ],
+            "date_added": "13418819508995034",
+            "date_last_used": "0",
+            "date_modified": "13418819508995034",
+            "guid": "3f61472d-155f-4618-9e3d-851b5b224a88",
+            "id": "7",
+            "name": "Synced Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13347365917000000",
+               "date_last_used": "0",
+               "guid": "a3ba80d2-0b7b-4c76-90e0-e1048afff467",
+               "id": "10",
+               "name": "Carilah 1 (satu) topik terkait dampak negatif/ kerugian teknologi jaringan MAN terhadap sebuah perusahaan yang menjalankan bisnis. Buatlah dengan lengkap",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://komo.ai/ask/gbSvIUhilLYlwoHKoVyb",
+               "visit_count": 0
+            }, {
+               "date_added": "13360000645000000",
+               "date_last_used": "0",
+               "guid": "35be1170-52f7-433e-a51b-1b3f8cba50a1",
+               "id": "11",
+               "name": "MathGPT Chat | AI Photo Math Chat Calculator",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://chat.math-gpt.org/id",
+               "visit_count": 0
+            }, {
+               "date_added": "13360508814000000",
+               "date_last_used": "0",
+               "guid": "b051d5fb-29e9-443c-a5a7-ea947bf88be8",
+               "id": "12",
+               "name": "Chat with Codeium | Codeium · Free AI Code Completion & Chat",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "https://codeium.com/live/general",
+               "visit_count": 0
+            } ],
+            "date_added": "13418819508996145",
+            "date_last_used": "0",
+            "date_modified": "13418819508996145",
+            "guid": "d3abb19b-ac23-4f96-8b1d-0cdc6d73789f",
+            "id": "9",
+            "name": "Other Bookmarks",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13436273420477777",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13436273420477777",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13436273420477777",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Workspaces",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCEYBky+hAQAAKg4QABgBIAAoBTAAOABAABIAKhhQd3F6Z1FTRGNBUFdZSXBzWE5XL0tRPT1IA6AGDBKMAQgDEocBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQyYjZlY2ZmYS03N2Y5LTUzZDUtYTgyYy1jY2E1ZjIwYWZmODUYACAAKAAw9Kmjt7guOI2N/4rtL0CNjf+K7S9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1lAAAAAMI+AmAAEq0BCBQSqAEKHE9ETXJGR3lwUlVWNDFKUHR3NUZubWp1eHYxMD0SJGJjZTViYzAwLWZjY2EtNGM2Zi05ZjY3LTI4Njc4MzcwMzkyOBgAIAAoADCsw+q33zM4mOqD4tEzQJjqg+LRM0ocTDBJNmVMdkx0WWRjTHVFd3lYRVViUU82RDBZPVofIh39OW56U3Q2Y2o1cVNoL3BUeklpU3cwSjZMN0Z3PWV0DzJOwj4CYAUSrQEIERKoAQocc1o2SlJieXZVUWhOL01iekVvZEFGY3lWaVZvPRIkZTBjYTEzZjYtNWZhOS00ZGFlLWJhMjctMWIyN2VjZGU5ODQ3GAAgACgAMJP9huLRMzis64Pi0TNArOuD4tEzShxWQWhKc2NVZlpaODQ3UVlVbS9TYnhoNWIxUFU9Wh8iHelEQlhmRGt6bGFEVGt2dUFsUzVDb0VxVlhid3M9ZYuOTzbCPgJgBRKMAQgBEocBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ2NDAwZWE5ZS1kNzdlLTU0MTUtOGUzMC0wYmU1YzJjZjQ5YjUYACAAKAAw76mjt7guOKCM/4rtL0CgjP+K7S9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1lAAAAAMI+AmAAEq0BCBASqAEKHFplbC9hWUphNVd4OUlaVnN5UEpnTWRvVGxNVT0SJDk3MjRjMThiLTkyYjctNGUzMy05YWJmLTg3NDNkNGVlNjMzNxgAIAAoADCW/Ybi0TM4k+mD4tEzQJPpg+LRM0ocdTVmekRpbmlac3NyWC8xT05ZUHNPQ3BiSThNPVofIh3SZFN1dTFLcjA3NUhRME5IUEltc0Zwa1RZRHZBPWWLjk82wj4CYAUSrQEIDBKoAQocS3k0MmFhQlFJQ3BzZENRYnZ6dFFra2tzeGJ3PRIkYjA1MWQ1ZmItMjllOS00NDNjLWE1YTctZWE5NDdiZjg4YmU4GAAgACgAMLDhg+LRMziP64Pi0TNAj+uD4tEzShxQMktnRlJjVUQza0ppNWU4bWZVKzVETVpnbkk9Wh8iHb1UNWxXYXFaQnhzS2hKQmYzRjc1UTJEUXRlMlE9ZQAAAADCPgJgBRKsAQgLEqcBChxHbkc3blkwdkpPQ2l2RkRjZ3Rra0pHWENZQUE9EiQzNWJlMTE3MC01MmY3LTQzM2UtYTUxYi0xYjNmOGNiYTUwYTEYACAAKAAwr+GD4tEzOPLqg+LRM0Dy6oPi0TNKHDZNQkx5anpUdXBIbFpFTTdjOUoySFkrVEMybz1aHiIcemd0T0MzOUVDUWZJZCtRK2VLRHh4QnRQdi9jPWUAAAAAwj4CYAUSrAEIChKnAQocSFpnL1J3bzRPeW1yQ3l6QTk1NUhid2dsZGUwPRIkYTNiYTgwZDItMGI3Yi00Yzc2LTkwZTAtZTEwNDhhZmZmNDY3GAAgACgAMK7hg+LRMzjW6oPi0TNA1uqD4tEzShxyZkhJeEljUnRUZ3BpOU1vOUVIZGtGOFVVQ3c9Wh4iHGkrYkkxZmpCU2RoK2FZUy9mbUI2RlNrMlNDMD1lAAAAAMI+AmAFEqwBCA0SpwEKHEcvTWxSenV4NEJlOUd0MzVCcWRqekZBSk9MND0SJDFlZjg3NGEzLWM1NzQtNDUxMi1iNGNlLTIwMjcwZjAzNDY0ORgAIAAoADCU/Ybi0TM45eiD4tEzQOXog+LRM0ocVkRsOGdOTzNRdWViV3R3SDJuOTdNcnc5c3RNPVoeIhxIK3VIRWsvbDc0ZXY4MVlzcE80ZUJ6RHNDclU9Zaa3UWHCPgJgBRKtAQgPEqgBChwyNmpnUVpPSisyUGs1d2VZUVozRkdBelVlTlE9EiQwNjUzZDAyNy02N2JkLTQyNWEtODMzMi1kOGJhMzU5ZGU0ZTcYACAAKAAwpuGD4tEzOPzog+LRM0D86IPi0TNKHHROT0d6VTR0OUdlaW84MmFBMWgrU2ZYajkwMD1aHyIdpTBJSmw5Ym5YNjQxZEtxRUcxUktNNm5STXJzUT1lVJpTRcI+AmAFEqwBCAgSpwEKHE50RTFnWkRxMTErVXJEOXV2TGhIdlVqblM5ST0SJGUyMmFmNmUwLWZhNTMtNDY4MC04YmQyLWRlNGFmY2VjMDVhMBgAIAAoADCr4YPi0TM4+umD4tEzQPrpg+LRM0ocL0s0UmFybDRoWTNuclQydDE3ZDgyY0FSUTZVPVoeIhx2QjVxVlYwUDBUOW9PckV5Um1EOFRpMVBCUTQ9ZQAAAADCPgJgBRKtAQgTEqgBChwvVTg1Sm01dXhRbnphd1I0bWFBOEFva1RqZE09EiQ2ZTJkNTUwNy1jNTFjLTRlZDktYTRlYS1mNTM3MTdkODk3OWEYACAAKAAwqeGD4tEzOMHpg+LRM0DB6YPi0TNKHCt4VGJXMlhFWS8wNjRESzQxbEgyaTF2ZDNsMD1aHyId+nVZMHdjWGdYaXJvaWd1NGZJcXE2T2UwTGJVTT1lAAAAAMI+AmAFEq0BCBISqAEKHE5yMCtkdlNHKzU1UTRhcHZDbkJiVGxjSFZaMD0SJGM1YzQ0MTA3LTc4ODEtNGQ2NS1iOWJhLTlkOTNlN2FmYjZjMRgAIAAoADCo4YPi0TM4qumD4tEzQKrpg+LRM0ocWnFsTGdKQXNhU21DWjI1MmZFSnZNdC9NMW8wPVofIh30MnN3K1IzdERITlk0RDJEVlJjYzFZN0tTNG9vPWUAAAAAwj4CYAUSrAEIDhKnAQocWDNVeE9ITSs0K0hVUEFaVFZOQUdkS0VYbDdBPRIkMDc4YjQ3ODQtYjM0Ny00M2I5LTgyMDItOTViOWUwOWUyOWZmGAAgACgAMMur/qCONDjO6IPi0TNAzuiD4tEzShxrajVZdVJyb2UxWmNReUpIQmUyUFhjM2hvTnM9Wh4iHEtDR09iSU9SQzhTdUlPWmZyUlZsYndhcExWVT1lQGsY88I+AmAFEqwBCAcSpwEKHDBTcmwvQkw1L1VlVXY0amdWR0RRdU5vVFdXaz0SJDNmNjE0NzJkLTE1NWYtNDYxOC05ZTNkLTg1MWI1YjIyNGE4OBgAIAAoADCq4YPi0TM42umD4tEzQNrpg+LRM0ocdFpUMU1oZ1dBUGx2cFpaZnZJRGVZOXc3cmVVPVoeIhxEOENabEpxcnIvOXZHQWcwVkpPTE52cktiQjg9ZQAAAADCPgJgABKMAQgCEocBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ3MTJkNWNkMy0wYmU0LTVlNDgtYjZjNy0wZDVjNTViZjY1OWYYACAAKAAw8Kmjt7guOL+M/4rtL0C/jP+K7S9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1lAAAAAMI+AmAAEq0BCAkSqAEKHG9EZ1RCbHIyc2lWUGxISTRZRElaVzBHNUdybz0SJGQzYWJiMTliLWFjMjMtNGY5Ni04YjFkLTBjZGM2ZDczNzg5ZhgAIAAoADCt4YPi0TM4uOqD4tEzQLjqg+LRM0ocbE03dExSK1F5OUlDcDJabSswNlc4dDV6WFJNPVofIh2iMTRMQ0ZOc3ozYkI4NjUzd1Z4MDk5Qkk5M2RJPWUAAAAAwj4CYAASjAEIBRKHAQocd1JCclpMKzZQQTlhdktnak5QN0pYRExjZnZzPRIkYjIzZjVlYTMtYzMzZC01ZmMzLWFhMDMtNjEyMDBmYjczZWE1GAAgACgAMMmozKfOMzjnqcynzjNA56nMp84zShxubXg2NXNRRHZ4SThUZ0VlditBK250dG9TbjQ9ZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}

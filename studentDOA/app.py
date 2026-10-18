@@ -78,8 +78,25 @@ with tab_data:
 
 with tab_bi:
     st.subheader("Business Intelligence")
-    st.markdown("**Distribusi status mahasiswa**")
-    st.bar_chart(students[TARGET].value_counts().rename_axis("Status").to_frame("Jumlah mahasiswa"))
+    st.markdown("**Gambaran umum mahasiswa**")
+    b1, b2, b3 = st.columns(3)
+    b1.metric("Rata-rata usia saat mendaftar", f"{students['Age at enrollment'].mean():.1f} tahun")
+    b2.metric("Pemegang beasiswa", f"{students['Scholarship holder'].mean():.1%}")
+    b3.metric("Biaya kuliah tercatat lunas", f"{students['Tuition fees up to date'].mean():.1%}")
+
+    left_status, right_status = st.columns(2)
+    with left_status:
+        st.markdown("**Jumlah mahasiswa menurut status**")
+        st.bar_chart(students[TARGET].value_counts().rename_axis("Status").to_frame("Jumlah mahasiswa"))
+    with right_status:
+        st.markdown("**Proporsi status menurut kelompok usia**")
+        age_bins = [0, 20, 25, 30, 40, 100]
+        age_labels = ["≤20", "21–25", "26–30", "31–40", ">40"]
+        age_data = students[["Age at enrollment", TARGET]].copy()
+        age_data["Kelompok usia"] = pd.cut(age_data["Age at enrollment"], bins=age_bins, labels=age_labels)
+        age_mix = pd.crosstab(age_data["Kelompok usia"], age_data[TARGET], normalize="index").mul(100)
+        st.bar_chart(age_mix)
+
     left, right = st.columns(2)
     semester_columns = ["1st sem"] if cutoff == "Semester 1" else ["1st sem", "2nd sem"]
     approved_columns = [f"Curricular units {semester} (approved)" for semester in semester_columns]
@@ -94,6 +111,27 @@ with tab_bi:
         st.markdown("**Rata-rata nilai semester**")
         grades = students.groupby(TARGET)[grade_columns].mean().rename(columns=grade_labels)
         st.bar_chart(grades)
+
+    st.markdown("**Proporsi status berdasarkan kondisi pendaftaran**")
+    factors = [
+        ("Scholarship holder", "Status beasiswa (0 = tidak, 1 = ya)"),
+        ("Tuition fees up to date", "Status pembayaran biaya kuliah (0 = belum, 1 = lunas)"),
+        ("Debtor", "Status tunggakan (0 = tidak, 1 = ya)"),
+    ]
+    factor_cols = st.columns(len(factors))
+    for column, (field, label) in zip(factor_cols, factors):
+        with column:
+            st.markdown(f"**{label}**")
+            mix = pd.crosstab(students[field], students[TARGET], normalize="index").mul(100)
+            mix.index = [str(int(value)) for value in mix.index]
+            st.bar_chart(mix)
+
+    st.markdown("**10 kode program studi dengan mahasiswa terbanyak**")
+    top_courses = students["Course"].value_counts().head(10).index
+    course_data = students[students["Course"].isin(top_courses)]
+    course_mix = pd.crosstab(course_data["Course"], course_data[TARGET], normalize="index").mul(100)
+    st.bar_chart(course_mix.sort_index())
+    st.caption("Grafik memperlihatkan pola dalam dataset; bukan bukti bahwa usia, beasiswa, pembayaran, atau program studi menyebabkan suatu status.")
     st.caption("Nilai 0 bisa menunjukkan belum mengikuti evaluasi. Pertimbangkan kolom evaluations saat membaca rata-rata nilai.")
 
 with tab_ml:
@@ -137,3 +175,4 @@ with tab_llm:
 
 st.markdown("---")
 st.caption("Alur: dataset → business intelligence → prediksi machine learning → interpretasi LLM.")
+    

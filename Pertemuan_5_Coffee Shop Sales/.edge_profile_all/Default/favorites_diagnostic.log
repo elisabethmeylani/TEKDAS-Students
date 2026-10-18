@@ -1,0 +1,35 @@
+2026-10-12 10:10:20.646: [INFO] CurrentProfilePath: D:\Pertemuan 5\.edge_profile_all\Default
+2026-10-12 10:10:20.646: [INFO] Profiles total count: 1
+2026-10-12 10:10:20.646: [INFO] Profile: name=Profile 1 path=D:\Pertemuan 5\.edge_profile_all\Default lastActive=2026-10-12T10:10:20.634Z
+2026-10-12 10:10:20.646: [INFO] LastUsedProfileDir: D:\Pertemuan 5\.edge_profile_all\Default
+2026-10-12 10:10:20.646: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=D:\Pertemuan 5\.edge_profile_all\Default lastActive=2026-10-12T10:10:20.634Z
+2026-10-12 10:10:20.646: [INFO] OnDoneLoading sync enabled: 0
+2026-10-12 10:10:20.646: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-10-12 10:10:20.646: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-10-12 10:10:20.646: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-10-12 10:10:20.711: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-12 10:10:20.873: [INFO] VisibilityChanged: 0
+2026-10-12 10:10:21.002: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 0
+2026-10-12 10:10:21.006: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-12 10:10:21.009: [INFO] Primary account changed.
+2026-10-12 10:10:21.009: [INFO] OnPrimaryAccountChanged PrimaryAccountChangeEvent::Type::kSet
+2026-10-12 10:10:21.020: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-12 10:10:21.037: [INFO] RecordSyncInitDuration has_sync_been_enabled: 0 state: 3
+2026-10-12 10:10:23.973: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.975: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.975: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.975: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.975: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.976: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.976: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.976: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.976: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.977: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.977: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.977: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.977: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.977: [INFO] BookmarkNodeAdded, ABU: 0
+2026-10-12 10:10:23.984: [INFO] BookmarkBarPrefChanged showBar=0 showBarNTP=0
+2026-10-12 10:10:24.007: [INFO] VisibilityChanged: 1
+2026-10-12 10:10:24.640: [INFO] Sync initialization duration: 3514ms
+2026-10-12 10:10:25.736: [INFO] BookmarksSnapshot Shutdown total=12 bar=8 other=2 mobile=0 showBar=1 showBarNTP=0

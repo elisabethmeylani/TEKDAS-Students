@@ -1,0 +1,120 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Length 4874 >>
+stream
+0.08 0.32 0.52 rg 0 772 612 20 re f
+1 1 1 rg BT /F2 9 Tf 48 779 Td (TEKNOLOGI CERDAS - LAPORAN TUGAS) Tj ET
+0.08 0.24 0.40 rg BT /F2 21 Tf 48 710 Td (LAPORAN TUGAS STUDENTDOA) Tj ET
+0.28 0.34 0.40 rg BT /F1 11 Tf 48 690 Td (Pembuatan aplikasi analisis status mahasiswa dengan data, ML, dan LLM) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 658 Td (Ringkasan pengerjaan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 640 Td (Tugas meminta pembuatan aplikasi App.py mengikuti alur proyek pada folder simulation, tetapi) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 626 Td (menggunakan dataset publik StudentDOA. Pengerjaan mencakup pembuatan folder, pemeriksaan dataset,) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 612 Td (persiapan dan pembagian data, pelatihan model, pembuatan dashboard Streamlit, serta percobaan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 598 Td (aplikasi.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 576 Td (Langkah 1-2: folder proyek dan dataset) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 558 Td (Folder proyek dibuat di D:\\TEKDAS-Students\\studentDOA. Dataset Kaggle disimpan di folder tersebut) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 544 Td (dengan nama studentDOA.csv. File sumber ini berisi 4.424 baris dan 35 kolom.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 522 Td (Langkah 3: isi dataset StudentDOA) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 504 Td (Dataset berisi catatan mahasiswa dan status hasil studinya. Satu baris mewakili seorang mahasiswa.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 490 Td (Kolom Target memiliki tiga kelas: Dropout, Graduate, dan Enrolled. Distribusi pada data: 1.421) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 476 Td (Dropout \(32,1%\), 2.209 Graduate \(49,9%\), dan 794 Enrolled \(17,9%\).) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 458 Td (Isi kolom dapat dikelompokkan sebagai berikut:) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 440 Td (- Pendaftaran dan latar belakang: Marital status, Application mode, Application order, Course,) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 426 Td (  Daytime/evening attendance, Previous qualification, Nacionality, serta pendidikan dan pekerjaan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 412 Td (  ibu dan ayah.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 394 Td (- Kondisi mahasiswa: Displaced, Educational special needs, Debtor, Tuition fees up to date, Gender,) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 380 Td (  Scholarship holder, International, dan Age at enrollment.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 362 Td (- Akademik semester 1 dan 2: jumlah curricular units yang dikreditkan, diambil, dievaluasi,) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 348 Td (  disetujui, nilai semester, dan mata kuliah tanpa evaluasi.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 330 Td (- Kondisi ekonomi: Unemployment rate, Inflation rate, dan GDP.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 312 Td (Banyak kolom kategorikal disimpan sebagai kode angka. Misalnya Course = 2 adalah kode program) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 298 Td (studi, bukan nilai atau jumlah mata kuliah. Contoh catatan pertama berstatus Dropout; catatan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 284 Td (berikutnya berstatus Graduate.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 262 Td (Langkah 4: aplikasi dan file pendukung) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 244 Td (Aplikasi dibuat di studentDOA/app.py dengan pola Data -> Business Intelligence -> Machine Learning) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 230 Td (-> LLM Analyst seperti proyek simulation. File pendukungnya adalah data_prep.py untuk validasi dan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 216 Td (train/test split, ml_model.py untuk melatih dan mengevaluasi model, vai_analyst.py untuk prompt dan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 202 Td (koneksi Ollama, serta README.md dan requirements.txt.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 184 Td (- Tab Data menampilkan catatan mahasiswa dan pratinjau dataset.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 166 Td (- Tab Business Intelligence menyajikan jumlah dan proporsi status, ringkasan usia dan beasiswa,) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 152 Td (  status biaya kuliah, hasil akademik, proporsi status menurut kelompok usia dan kondisi) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 138 Td (  pendaftaran, serta 10 kode program studi teratas.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 120 Td (- Tab Machine Learning menampilkan prediksi status, probabilitas tiap kelas, metrik evaluasi, dan) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 106 Td (  fitur yang paling berpengaruh secara global.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 88 Td (- Tab LLM Analyst menyusun interpretasi dan saran berbasis profil serta prediksi. Tab ini) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 74 Td (  memerlukan Ollama aktif; tab lainnya tetap dapat digunakan tanpa Ollama.) Tj ET
+0.35 0.40 0.45 rg BT /F1 8 Tf 48 30 Td (StudentDOA | Halaman 1 dari 2) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 3567 >>
+stream
+0.08 0.32 0.52 rg 0 772 612 20 re f
+1 1 1 rg BT /F2 9 Tf 48 779 Td (TEKNOLOGI CERDAS - LAPORAN TUGAS) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 710 Td (Langkah 5: persiapan, pelatihan, dan menjalankan aplikasi) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 692 Td (Nama skrip yang tersedia adalah data_prep.py \(bukan Data_Prev.py\), ml_model.py, dan app.py.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 678 Td (Perintah berikut dijalankan di PowerShell:) Tj ET
+0.12 0.24 0.36 rg BT /F1 9 Tf 48 660 Td (cd D:\\TEKDAS-Students\\studentDOA) Tj ET
+0.12 0.24 0.36 rg BT /F1 9 Tf 48 646 Td (..\\.venv\\Scripts\\Activate.ps1) Tj ET
+0.12 0.24 0.36 rg BT /F1 9 Tf 48 632 Td (python data_prep.py) Tj ET
+0.12 0.24 0.36 rg BT /F1 9 Tf 48 618 Td (python ml_model.py) Tj ET
+0.12 0.24 0.36 rg BT /F1 9 Tf 48 604 Td (streamlit run app.py) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 590 Td (data_prep.py memvalidasi dataset dan membuat pembagian train/test terstratifikasi sebesar 80:20.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 576 Td (ml_model.py melatih dua model Random Forest untuk tiga kelas: satu menggunakan informasi sampai) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 562 Td (semester 1 dan satu lagi sampai semester 2. Streamlit kemudian membuka dashboard di browser.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 540 Td (Hasil evaluasi model) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 522 Td (Pengujian dilakukan pada 885 catatan test. Model Semester 1 memperoleh accuracy 0.711 dan macro F1) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 508 Td (0.663. Model Semester 2 memperoleh accuracy 0.751 dan macro F1 0.708.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 490 Td (Nilai ini adalah hasil evaluasi pada pembagian data tersebut, bukan jaminan performa pada data) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 476 Td (baru. Kelas Enrolled memiliki jumlah contoh lebih sedikit daripada Graduate, sehingga metrik per) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 462 Td (kelas perlu diperhatikan, bukan accuracy saja.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 440 Td (Langkah 6: mencoba aplikasi dan mengumpulkan tugas) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 422 Td (Di sidebar aplikasi, pilih nomor baris mahasiswa dan batas informasi yang tersedia \(Semester 1 atau) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 408 Td (Semester 2\). Coba semua tab, lalu bandingkan prediksi model dengan Target aktual yang terlihat pada) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 394 Td (tab Data. Pilihan semester mengganti fitur dan model yang digunakan.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 376 Td (Berkas proyek untuk diunggah adalah StudentDOA_Submission.zip yang berada satu tingkat di atas) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 362 Td (folder studentDOA. ZIP ini berisi dataset, kode aplikasi dan pendukung, dua model, metrik, serta) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 348 Td (feature importance. Jika diminta bukti tampilan, ambil screenshot dashboard dari browser dan unggah) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 334 Td (terpisah.) Tj ET
+0.08 0.32 0.52 rg BT /F2 13 Tf 48 312 Td (Catatan interpretasi) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 294 Td (Model Semester 1 dibatasi pada data pendaftaran, latar belakang, ekonomi, dan akademik semester 1.) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 280 Td (Model Semester 2 menggunakan informasi hingga semester 2. Prediksi merupakan perkiraan pola dari) Tj ET
+0.12 0.16 0.22 rg BT /F1 10 Tf 48 266 Td (data dan tidak membuktikan penyebab seorang mahasiswa Dropout, Graduate, atau Enrolled.) Tj ET
+0.35 0.40 0.45 rg BT /F1 8 Tf 48 30 Td (StudentDOA | Halaman 2 dari 2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 7 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 7 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000005140 00000 n 
+0000005276 00000 n 
+0000008895 00000 n 
+0000009031 00000 n 
+0000009094 00000 n 
+trailer
+<< /Size 9 /Root 8 0 R >>
+startxref
+9143
+%%EOF
